@@ -1,5 +1,6 @@
 package io.fhir.entity.dataTypes.general;
 
+import io.fhir.entity.dataTypes.Element;
 import io.fhir.entity.dataTypes.primitive.CodeType;
 import java.util.List;
 
@@ -8,7 +9,7 @@ import java.util.List;
   Author  : AmirHFF
   Created : 9/21/2025 - 11:31 AM
 */
-public class HumanName {
+public class HumanName extends Element {
 
     @CodeType
     private String use;         // usual | official | temp | nickname | anonymous

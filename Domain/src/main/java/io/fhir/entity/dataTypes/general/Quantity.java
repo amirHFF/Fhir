@@ -5,7 +5,9 @@ package io.fhir.entity.dataTypes.general;
   Created : 9/21/2025 - 10:58 AM
 */
 
-public class Quantity {
+import io.fhir.entity.dataTypes.Element;
+
+public class Quantity extends Element {
     private Double value;
     private String comparator;  // < | <= | >= | >
     private String unit;        // display unit

@@ -1,5 +1,7 @@
 package io.fhir.entity.dataTypes.general;
 
+import io.fhir.entity.dataTypes.Element;
+
 import java.util.List;
 
 /*
@@ -7,7 +9,7 @@ import java.util.List;
   Author  : AmirHFF
   Created : 9/21/2025 - 10:58 AM
 */
-public class CodeableConcept {
+public class CodeableConcept extends Element {
     private List<Coding> coding;
     private String text;
 

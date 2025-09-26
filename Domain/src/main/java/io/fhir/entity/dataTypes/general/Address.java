@@ -5,9 +5,11 @@ package io.fhir.entity.dataTypes.general;
   Created : 9/21/2025 - 11:32 AM
 */
 
+import io.fhir.entity.dataTypes.Element;
+
 import java.util.List;
 
-public class Address {
+public class Address extends Element {
   private String use;         // home | work | temp | old | billing
   private String type;        // postal | physical | both
   private String text;

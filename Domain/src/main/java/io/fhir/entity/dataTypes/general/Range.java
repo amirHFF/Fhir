@@ -5,7 +5,9 @@ package io.fhir.entity.dataTypes.general;
   Created : 9/21/2025 - 11:38 AM
 */
 
-public class Range {
+import io.fhir.entity.dataTypes.Element;
+
+public class Range extends Element {
 
     private Quantity low;
     private Quantity high;

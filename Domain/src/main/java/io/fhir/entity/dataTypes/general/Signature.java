@@ -4,16 +4,17 @@ package io.fhir.entity.dataTypes.general;/*
     Created : 12:57
 */
 
-import io.fhir.entity.dataTypes.primitive.Base64Binary;
+import io.fhir.entity.dataTypes.Element;
+import io.fhir.entity.dataTypes.primitive.Base64BinaryType;
 import io.fhir.entity.dataTypes.primitive.CodeType;
-import io.fhir.entity.dataTypes.primitive.Instant;
+import io.fhir.entity.dataTypes.primitive.InstantType;
 import io.fhir.entity.dataTypes.special.Reference;
 import java.util.List;
 
-public class Signature {
+public class Signature extends Element {
 
     private List<Coding> type;
-    @Instant
+    @InstantType
     private String when;
     private Reference who;
     private Reference onBehalfOf;
@@ -21,6 +22,6 @@ public class Signature {
     private String targetFormat;
     @CodeType
     private String sigFormat;
-    @Base64Binary
+    @Base64BinaryType
     private String data;
 }
