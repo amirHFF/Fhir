@@ -1,4 +1,4 @@
-package io.fhir.entity.terminology;/*
+package io.fhir.entity.resource.terminology;/*
     Project : Fhir
     Author  : a.FouladiFar
     Created : 12:49

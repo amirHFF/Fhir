@@ -1,6 +1,6 @@
 package io.fhir.entity.dataTypes.general;
 
-import io.fhir.entity.dataTypes.Element;
+import io.fhir.entity.Element;
 
 public class ContactPoint extends Element {
         private String system;      // phone | fax | email | pager | url | sms | other

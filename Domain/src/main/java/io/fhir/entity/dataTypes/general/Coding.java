@@ -1,6 +1,6 @@
 package io.fhir.entity.dataTypes.general;
 
-import io.fhir.entity.dataTypes.Element;
+import io.fhir.entity.Element;
 
 /*
   Project : Fhir

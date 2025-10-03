@@ -5,7 +5,7 @@ package io.fhir.entity.dataTypes.metadata;
   Created : 9/26/2025 - 12:45 PM
 */
 
-import io.fhir.entity.dataTypes.Element;
+import io.fhir.entity.Element;
 
 public class RelatedArtifact extends Element {
 }

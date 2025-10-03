@@ -1,4 +1,4 @@
-package io.fhir.entity.dataTypes;
+package io.fhir.entity;
 /*
   Project : Fhir
   Author  : AmirHFF

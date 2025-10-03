@@ -5,7 +5,7 @@ package io.fhir.entity.dataTypes.general;
   Created : 9/21/2025 - 11:38 AM
 */
 
-import io.fhir.entity.dataTypes.Element;
+import io.fhir.entity.Element;
 
 public class Range extends Element {
 

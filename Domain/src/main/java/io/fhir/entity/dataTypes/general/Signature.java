@@ -4,7 +4,7 @@ package io.fhir.entity.dataTypes.general;/*
     Created : 12:57
 */
 
-import io.fhir.entity.dataTypes.Element;
+import io.fhir.entity.Element;
 import io.fhir.entity.dataTypes.primitive.Base64BinaryType;
 import io.fhir.entity.dataTypes.primitive.CodeType;
 import io.fhir.entity.dataTypes.primitive.InstantType;
